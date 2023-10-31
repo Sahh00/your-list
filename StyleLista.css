@@ -1,0 +1,138 @@
+body {
+  background: linear-gradient(to left, #73c5fc, #4679f8);
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+
+}
+
+
+.listagem {
+  margin: auto;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  padding-right: 400px;
+  padding-left: 400px;
+}
+
+.input_butao {
+  font-size: 33px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20;
+  margin-left: 2px;
+  background-color: #302AF5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.input_butao:active {
+  background-color: #8a86f7;
+}
+
+
+.input_text {
+  font-size: 30px;
+  border-radius: 5px;
+  box-shadow: none;
+  outline: 0;
+  text-transform: capitalize;
+}
+
+.TarefasConcluidas {
+  position: relative;
+  width: 479px;
+  height: 628px;
+  top: -276px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.349);
+}
+
+.TarefasConcluidas h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  padding-bottom: 20px;
+}
+
+.form {
+  background-color: white;
+  padding-top: 45px;
+  padding-bottom: 44px;
+  margin-right: 700px;
+  margin-left: 690px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.349);
+  width: 524px;
+  height: 44px;
+  position: relative;
+}
+
+.divAlinhamento {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  margin-left: -257px;
+  width: 524px;
+  height: 44px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.349);
+
+}
+
+.opt {
+  font-size: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.listagem {
+  border-radius: 15px;
+  width: 1vh;
+  height: 44px;
+  padding-bottom: 30px;
+  padding-right: 258px;
+  padding-left: 275px;
+  position: relative;
+  top: -599px;
+
+
+
+}
+
+.imgDelete {
+  width: 24px;
+
+}
+
+
+
+.divAlinhamentoImg {
+  display: flex;
+  position: relative;
+  left: 173px;
+  top: -27px;
+  background-color: #302AF5;
+  margin-right: 99px;
+  margin-bottom: -40px;
+  margin-top: -40px;
+
+}
+
+.pV {
+  position: relative;
+  left: 56px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleLista.css">
+    <script src="scriptLista.js"></script>
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+
+    <div class="titulo">
+        <h1>YOUR LIST</h1>
+        <span><img src="imagens/sinal-de-mais.png" alt="left" width="60px"></span>
+    </div>
+
+    <div class="form">
+        <input type="text" name="Objetivos" id="Objetivos" class="input_text" placeholder="Task To Be Done..."
+            onfocus="this.value='';">
+        <input type="button" value="Add" onclick="lista()" class="input_butao">
+    </div>
+
+    <div id="TarefasConcluidas" class="TarefasConcluidas">
+        <h2>Completed Tasks</h2>
+        <span><img src="imagens/tarefa-concluida.png" width="60px"></span>
+    </div>
+    <div class="listagem" id="resultado">
+    </div>
+</body>
+
+</html>
